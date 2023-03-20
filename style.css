@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    text-decoration:none;
+    font-family:"Inter";
+    box-sizing: border-box;
+}
+
+
+
+.background-tech{
+    background:rgba(3,0, 12, 0.7) url(/image/tech.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+}
+
+.logo img{
+    width: 150px;
+    height: auto;
+    
+}
+
+nav{
+    display: flex;
+    gap: 35px;
+    font-size: 15px;
+}
+
+nav a{
+    color: aliceblue;
+    font-weight: 500;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    align-items: center;
+    text-align: center;
+    gap: 10rem;
+
+} 
+
+
+.button-enter{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+
+}
+.button-enter button{
+    background-color: black;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.button-enter a{
+    color: #fff;
+    font-size: 18px;
+}
+
+.meio-tech {
+    text-align: left;
+    color: #fff;
+    padding-left: 134px;
+    margin-top: 130px;
+    
+
+}
+
+.meio-tech h1 {
+    margin-bottom: 50px;
+}
+.meio-tech p{
+    text-align: justify;
+    width: 392px;
+}
+
+.btn {
+    background-color: darkred;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 3rem;
+    cursor: pointer;
+    transition: all .1s;
+}
+.btn:hover{
+    background-color: rgb(198, 105, 105);
+
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    right: 8%;
+    transform: translateY(-50);
+}
+.main h4 {
+    color: #fff;
+    letter-spacing: 2px;
+}
+.main h1 {
+    color: #fff;
+    margin: 20px 0px 20px;
+    font-family: 75px;
+
+}
+
+.main h3{
+    color: #fff;
+    font-family: "Inter"
+    margin-bottom: 50px;
+}
+
+.conteiner-btn{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+    margin-top: 30px;
+}
+
+.conteiner-btn form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border-radius: 30px;
+    outline: none;
+    opacity: 0.7;
+
+
+}
+
+.conteiner-btn form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: brown;
+    color: #fff;
+    box-shadow: 0px 0px 15px #858585;
+    transition: all .2s;
+    top: 6px;
+    right: 7px;
+
+
+    
+}
+.conteiner-btn form input:last-child:hover{
+    
+    background-color: rgb(164, 83, 83);
+/* top: 2px; */
+cursor: pointer;
+
+}
+.menu a{
+    transition: all .1s;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px;
+}
+.menu a:hover {
+    /* color: rgb(26, 1, 1); */
+    transform: translateY(-3px);
+    opacity: 0.6;
+}
